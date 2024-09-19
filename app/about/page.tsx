@@ -1,12 +1,12 @@
-'use client'
-import React from 'react'
+"use client";
+import React from "react";
 
 function AboutPage() {
   return (
     <div>
-      <h1 className='text-7xl'>About Page</h1>
+      <h1 className="text-7xl">About Page</h1>
     </div>
-  )
+  );
 }
 
-export default AboutPage
+export default AboutPage;

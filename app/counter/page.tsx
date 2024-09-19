@@ -1,16 +1,14 @@
-'use client';
+"use client";
 
-import Counter from '@/components/Counter';
-import { useState } from 'react'
+import Counter from "@/components/Counter";
 
 function CounterPage() {
-    const [count, setCount] = useState(0);
-    return (
-        <section>
-            <h1 className='text-6xl mb-16'>Counter</h1>
-            <Counter />
-        </section>
-    )
+  return (
+    <section>
+      <h1 className="text-6xl mb-16">Counter</h1>
+      <Counter />
+    </section>
+  );
 }
 
-export default CounterPage
+export default CounterPage;
